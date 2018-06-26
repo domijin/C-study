@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+	int ta,n,l=1,i,t=0,a[101]={0};
+	char s;
+	while(scanf("%c",&s),a[l]=(int)s-48,s!=' '&&s!='\n')
+	{l++;if(s==EOF) break;}
+	scanf("%d",&n);
+	if (n==0) {printf("0\n");main();}
+	for (i=l-1;i>0;i--)
+	{
+		ta=a[i];
+		a[i]=(a[i]*n+t)%10;
+		t=(ta*n+t)/10;     
+	}
+	a[0]=t;
+	if (a[0]!=0)
+	printf("%d",a[0]);
+	for (i=1;i<l;i++)
+	printf("%d",a[i]);
+	printf("\n");
+	main();
+}

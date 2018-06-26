@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sa - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\windyfly\LOCALS~1\Temp\RSP206.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/sa.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\windyfly\桌面\补充题\sa\sa.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\windyfly\LOCALS~1\Temp\RSP206.tmp" 
+<h3>Output Window</h3>
+Compiling...
+sa.cpp
+C:\Documents and Settings\windyfly\桌面\补充题\sa\sa.cpp(107) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\windyfly\桌面\补充题\sa\sa.cpp(117) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Documents and Settings\windyfly\桌面\补充题\sa\sa.cpp(117) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+
+
+
+<h3>Results</h3>
+sa.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
